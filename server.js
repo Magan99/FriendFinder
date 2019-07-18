@@ -2,9 +2,8 @@
 // Series of npm packages that we will use to give our server useful functionality
 // ==============================================================================
 
-let express = require('express');
-let bodyParser = require("body-parser");
-let path = require('path');
+var express = require('express');
+
 
 
 // ==============================================================================
@@ -12,17 +11,17 @@ let path = require('path');
 // This sets up the basic properties for our express server
 // ==============================================================================
 
-let app = express();
+var app = express();
 
 // Sets an initial port.
 
-let PORT = process.env.port || 8080;
+var PORT = process.env.port || 2509;
 
 //Sets up the Express app to handle data parsing 
 
-app.use(bodyParser.urlencoded({ extended:true}));
+app.use(express.urlencoded({ extended:true}));
 
-app.use(bodyParser.json());
+app.use(express.json());
 
 // ================================================================================
 
@@ -34,8 +33,8 @@ app.use(bodyParser.json());
 
 // ================================================================================
 
-require("./routing/apiRoutes")(app);
-require("./routing/htmlRoutes")(app);
+require("./app/routing/apiRoutes.js")(app);
+require("./app/routing/htmlRoutes.js")(app);
 
 // =============================================================================
 // LISTENER

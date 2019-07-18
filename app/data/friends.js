@@ -6,7 +6,7 @@
 // ===============================================================================
 
 
-let friends = [
+var friends = [
     {
     name: 'Mohamed',
     photo: '',
@@ -21,6 +21,42 @@ let friends = [
         4,
         1]
     }
+    
+];
+[
+    {
+    name: '',
+    photo: '',
+    scores: [1,
+        5,
+        3,
+        2,
+        1,
+        5,
+        4,
+        1,
+        2,
+        5]
+    }
+    
+];
+[
+    {
+    name: '',
+    photo: '',
+    scores: [1,
+        5,
+        3,
+        2,
+        1,
+        5,
+        4,
+        1,
+        2,
+        5]
+    }
+    
 ];
 
-module.exports = tableArray;
+
+module.exports = friends;
