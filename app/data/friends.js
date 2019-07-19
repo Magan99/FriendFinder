@@ -9,7 +9,7 @@
 var friends = [
     {
     name: 'Mohamed',
-    photo: '',
+    photo: '/images/moha.jpg',
     scores: [5,
         1,
         4,
@@ -25,8 +25,8 @@ var friends = [
 ];
 [
     {
-    name: '',
-    photo: '',
+    name: 'Dabcaser',
+    photo: '/images/moha.jpg',
     scores: [1,
         5,
         3,
@@ -42,8 +42,8 @@ var friends = [
 ];
 [
     {
-    name: '',
-    photo: '',
+    name: 'Habiba',
+    photo: '/images/moha.jpg',
     scores: [1,
         5,
         3,

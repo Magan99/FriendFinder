@@ -3,6 +3,7 @@
 // ==============================================================================
 
 var express = require('express');
+var path = require('path');
 
 
 
@@ -12,8 +13,10 @@ var express = require('express');
 // ==============================================================================
 
 var app = express();
+app.use(express.static(path.join(__dirname, 'app/public/')))
 
 // Sets an initial port.
+
 
 var PORT = process.env.port || 2509;
 
