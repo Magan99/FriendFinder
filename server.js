@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname, 'app/public/')))
 // Sets an initial port.
 
 
-var PORT = process.env.port || 3000;
+var PORT = process.env.PORT || 3000;
 
 //Sets up the Express app to handle data parsing 
 
