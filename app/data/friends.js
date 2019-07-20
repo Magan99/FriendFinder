@@ -26,24 +26,24 @@ var friends = [
 [
     {
     name: 'Dabcaser',
-    photo: '/images/moha.jpg',
+    photo: '/images/dabka.jpeg',
     scores: [1,
-        5,
-        3,
-        2,
         1,
-        5,
-        4,
         1,
-        2,
-        5]
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1]
     }
     
 ];
 [
     {
     name: 'Habiba',
-    photo: '/images/moha.jpg',
+    photo: '/images/jj.jpeg',
     scores: [1,
         5,
         3,
